@@ -21,7 +21,7 @@ while True:
         print("".join(hint))
         guess = input("Input a letter: ")
         if len(guess) != 1:
-            print("You should print a single letter")
+            print("You should input a single letter")
             continue
         if not (guess.isascii() and guess.islower()):
             print("It is not an ASCII lowercase letter")
